@@ -9,7 +9,7 @@ cd $DIRNAME
 
 function recordTrack {
     echo "recordTrack called FILENAME:$FILENAME URL: $URL" 
-    icecream --name=$FILENAME --stop=20mb $URL
+    icecream --name=$FILENAME --stop=90mb $URL
 }
 
 function filterSmallFiles {
